@@ -1,0 +1,37 @@
+/* Custom styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background: url('img.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me {
+    margin-top: 0; /* Ensure no margin-top is applied */
+    padding-top: 0; /* Ensure no padding-top is applied */
+}
+
+/* Remove padding and margin from the container */
+.container {
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0; /* Remove bottom margin from navbar */
+}
+
+/* Adjust for mobile screens */
+@media (max-width: 768px) {
+    .hero {
+        height: auto; /* Adjust height for smaller screens if needed */
+    }
+}
